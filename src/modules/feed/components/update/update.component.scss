@@ -1,0 +1,41 @@
+.update-block {
+  display: flex;
+  gap: 16px;
+
+  &__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    width: 100%;
+  }
+
+  &__chapters {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .chapter {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+    }
+    &__date {
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+    }
+  }
+
+}
