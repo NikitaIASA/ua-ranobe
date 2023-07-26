@@ -1,0 +1,59 @@
+@import "../../../scss/index.scss";
+
+.header {
+  background-color: $dark-purple;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px 0;
+  }
+
+  &__logo {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: $white;
+  }
+
+  &__list {
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    gap: 64px;
+  }
+
+  &__link {
+    color: $white;
+  }
+
+  &__search {
+    width: 312px;
+    padding: 16px;
+    border-radius: 16px;
+    margin-right: 72px;
+  }
+}
+
+.right-menu {
+  display: flex;
+  &__link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: $white;
+    padding: 16px;
+    margin-right: 8px;
+  }
+
+  &__registration {
+    border: 1px solid $white;
+    border-radius: 16px;
+  }
+  
+}
