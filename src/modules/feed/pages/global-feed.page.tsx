@@ -3,6 +3,7 @@ import { Container } from "../../../common/components/container/container.compon
 import { Banner } from "../../../common/components/banner/banner.components";
 import { UpdateList } from "../components/update-list/update-list.component";
 import { TrendList } from "../components/trend-list/trend-list.component";
+import { PopularList } from "../components/popular-list/popular-list.component";
 
 import "./global-feed.page.scss";
 
@@ -18,8 +19,8 @@ export const GlobalFeedPage: FC<GlobalFeedPageProps> = () => {
           <div className="w-65">
             <UpdateList/>
           </div>
-          <div className="w-28">
-           
+          <div className="w-33">
+           <PopularList/>
           </div>
         </div>
       </Container>

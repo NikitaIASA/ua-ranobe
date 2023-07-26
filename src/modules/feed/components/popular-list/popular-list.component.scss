@@ -1,26 +1,27 @@
 @import "../../../../scss//index.scss";
 
-.title {
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-  margin-bottom: 16px;
-}
-
-.update-list {
+.popular-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 16px;
   background-color: $white;
+  padding: 16px;
   border-radius: 16px;
 
+  &__title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 16px;
+  }
+
   &__more {
+    color:#8d8d8d;
+    text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
-    text-align: center;
   }
 }
