@@ -4,6 +4,7 @@ import { Banner } from "../../../common/components/banner/banner.components";
 import { UpdateList } from "../components/update-list/update-list.component";
 import { TrendList } from "../components/trend-list/trend-list.component";
 import { PopularList } from "../components/popular-list/popular-list.component";
+import { NewsList } from "../components/news-list/news-list.component";
 
 import "./global-feed.page.scss";
 
@@ -14,13 +15,14 @@ export const GlobalFeedPage: FC<GlobalFeedPageProps> = () => {
     <>
       <Container>
         <Banner />
-        <TrendList/>
+        <TrendList />
         <div className="flex">
           <div className="w-65">
-            <UpdateList/>
+            <UpdateList />
+            <NewsList />
           </div>
           <div className="w-33">
-           <PopularList/>
+            <PopularList />
           </div>
         </div>
       </Container>
